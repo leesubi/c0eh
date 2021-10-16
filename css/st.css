@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-size: 14px;
+}
+section{
+    display: flex;
+}
+header, footer{
+    background-color: greenyellow;
+    text-align: center;
+    height: 100px;
+    font-size: 1.4em;
+}
+article, aside, nav{
+    border: 1px solid gray;
+    height: calc(100vh - 200px);
+}
+article{
+    flex: 1;
+}
+aside{
+    flex: 1;
+}
+nav{
+    flex: 1;
+}

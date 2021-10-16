@@ -1,0 +1,36 @@
+* {font-family:"맑은 고딕",Arial, Helvetica, sans-serif; font-weight: 150;}  
+    ul {list-style: none;}
+        li{display: inline; margin: 50px;}
+    header h1 {display: inline;
+    }
+    a {text-decoration: none;
+    }
+    nav ul {
+        text-align: center; border-top: 4px solid black;
+        border-bottom: 4px solid black; padding: 17px 23px;
+    }
+    nav li {
+        display: inline; 
+        padding: 5px 9px;
+        letter-spacing: 4px;
+        letter-spacing: normal;
+    }
+    nav li a:hover {
+        color: black;
+    }
+    header{
+        text-align: center;
+        font-size: 1.4em;
+    }
+    section{ 
+        display:flex;
+    }
+    article{
+        flex: 1;
+    }
+    aside{
+        flex: 1;
+    }
+    nav{
+    flex: 1;
+    }
